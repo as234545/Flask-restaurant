@@ -13,7 +13,7 @@ from datetime import datetime, timedelta, time
 #engine = create_engine('sqlite:///db6.sqlite', echo=True)
 
 
-app._static_folder = "C:/Users/hh577/RestTest/static"
+#app._static_folder = "C:/Users/hh577/RestTest/static"
 
 def get_db_connection():
     conn = sqlite3.connect('db6.db')
