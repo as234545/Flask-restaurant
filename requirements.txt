@@ -192,7 +192,6 @@ python-dateutil==2.8.1
 python-keystoneclient==4.1.0
 pytz==2020.1
 PyVirtualDisplay==0.2.5
-pywin32==227
 pywinpty==0.5.7
 PyYAML==5.3.1
 pyzmq==19.0.0
