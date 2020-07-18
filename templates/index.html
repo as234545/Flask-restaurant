@@ -13,7 +13,9 @@
 
 
     <!-- Bootstrap core CSS -->
-<link href="../static/bootstrap.css" rel="stylesheet">
+    <link href= "{{ url_for('static', filename='bootstrap.css' ) }} "  rel="stylesheet">
+        <link href=  "{{ url_for('static', filename='floating-labels.css' ) }} "  rel="stylesheet">
+
 
     <style>
       .bd-placeholder-img {
@@ -32,7 +34,7 @@
       }
     </style>
     <!-- Custom styles for this template -->
-    <link href="../static/offcanvas.css" rel="stylesheet">
+   
   </head>
   <body class="bg-light">
 
